@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+ 
+    width: 100%;
+    min-height: 30vh;
+    background-image: linear-gradient(skyblue,lightgreen),url(images/back.jfif);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+
+.header h1{
+    font-size: 50px;
+    color: rgb(61, 55, 55);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 70px;
+    color: black;
+
+}
+
+.header hr{
+    
+        background: rgb(238, 228, 228);
+        height: 2px;
+        border: 2;
+        margin: 15px auto;
+        width: 30%;
+        
+    
+}
+
+
+.subs{
+    min-height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/prog.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+} 
+
+.center{
+    position: absolute;
+    margin-left: 20cm;
+    top: 35%;
+    bottom: 50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); 
+    transform: translateX(-50%);
+    top: 2cm;
+    
+    
+}
+
+
+button{
+    width: 170px;
+    height: 130px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    margin-top: 0cm;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #009688;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden ;
+    display: inline-block;
+    left: 20px;
+
+}
+.back{
+
+    width: 150px;
+    padding: 15px 0;
+    text-align: center;
+    margin-left: 0cm;
+    border-radius: 90px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid #009688;
+    background-color: rgb(233, 94, 94);
+    color: white;
+    cursor: pointer;
+    transform: translateY(100%);
+    transform: translateX(-20%);
+    top: 1.5cm;
+    left: 1.5cm;
+    height: 1.5cm;
+    
+    
+
+}
+
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover{
+    border:none;
+}
+
+
+@media(max-width:700px){
+    .header{
+ 
+        text-indent:0.1cm;
+        font-size: 20px;
+        font-style: bold;
+        font-weight: 500px;
+    }
+
+    .header h1{
+        font-size: 40px;
+        color: rgb(61, 55, 55);
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 70px;
+        color: black;
+        font-style: bold;
+    
+    }
+    .header hr{ 
+    
+        background: rgb(238, 228, 228);
+        height: 1px;
+        border: 2;
+        margin: 5px auto;
+        width: 50%;
+        
+    
+      }
+    
+    .center{
+        position: absolute;
+        margin-left: 4cm;
+        top: 25%;
+        bottom: 60%;
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%); 
+        text-align: center;
+        
+        
+    }
+
+    button{
+     
+        width: 150px;
+        font-size: 15px;
+        border-radius: 23px;
+        height: 25px;
+        letter-spacing: 2px;
+        text-align: center;
+        background-color: transparent;
+        line-height:8px ;
+        
+    
+    }
+    .back{
+
+        width: 100px;
+        font-size: 15px;
+        border-radius: 23px;
+        top: 1.5cm;
+        left: 1cm;
+        background-color: transparent;
+        
+        
+        
+    
+    }
+}
+
+

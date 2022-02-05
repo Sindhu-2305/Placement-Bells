@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Placement Bells</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/49dfca48a6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"/>
+      <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <!--  <a href="index.html"><img src="images/pic.PNG"></a>   -->
+        <div class="heading">
+          <h1>PLACEMENT BELLS</h1>
+        </div>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#subs">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="content">
+        <h1>WELCOME</h1>
+        
+        <p>
+           <br /> 
+           Students enter college with the hope of getting a good placement but confused over thousands of resources available!!!
+            <br> Don't worry, we came up with a solution. <br>
+           Placement Bells is
+           “one-stop-shop” for anything and everything that you would use for your campus placements preparation. 
+           <br>We provided you with some of the best website links available which
+           
+           you could use for your preparation.
+
+          <br>
+          <br>
+          
+          <h2>ALL THE BEST!!</h2>
+          
+        </p>
+      </div>
+    </section>
+
+    <!-- JAVASCRIPT FOR TOGGLE MENU-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+        navLinks.style.maxHeight = "150px";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+<section id="subs">
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-16">
+          <h1
+            class="sm:text-5xl text-2xl font-extrabold title-font mb-4 text-gray-900"
+          >
+            WHAT CAN YOU LEARN
+          </h1>
+        </div>
+        <div class="flex flex-wrap">
+          <div
+            class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60"
+          >
+            <h2
+              class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"
+            >
+              SUBJECTS
+            </h2>
+            <p class="leading-relaxed text-base mb-4">
+              Aptitude, Operating System, DBMS, Networking
+            </p>
+            <button id="1"
+              class="flex mx-auto mt-50 text-white bg-indigo-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            >
+              Explore
+            </button>
+          </div>
+          <div
+            class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60"
+          >
+            <h2
+              class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"
+            >
+              LANGUAGES
+            </h2>
+            <p class="leading-relaxed text-base mb-4">
+              C, C++, Python  <br />
+              Java, DS & Algorithms
+            </p>
+            <button id="2"
+              class="flex mx-auto mt-50 text-white bg-indigo-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            >
+              Explore
+            </button>
+          </div>
+          <div
+            class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60"
+          >
+            <h2
+              class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"
+            >
+              PROGRAMS
+            </h2>
+            <p class="leading-relaxed text-base mb-4">
+              Bare Minimum Programs <br>Bonus Programs
+            </p>
+            <button id="3"
+              class="flex mx-auto mt-50 text-white bg-indigo-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            >
+              Explore
+            </button>
+          </div>
+          <div
+            class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60"
+          >
+            <h2
+              class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2"
+            >
+              INTERVIEW QUESTIONS
+            </h2>
+            <p class="leading-relaxed text-base mb-4">
+              Common HR Interview <br> Questions
+            </p>
+            <button
+              id="4"
+              class="flex mx-auto mt-50 text-white bg-indigo-500 border-0 py-1 px-2 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            >
+              Explore
+            </button>
+           
+          </div>
+        </div>
+        <!--   <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button> -->
+        <a href="#">Go To Top</a>
+      </div>
+
+    </section>
+
+  
+  </section>
+
+    <section>
+      <section id="about">
+    <!--   <div class="title-text">
+          <p>ABOUT US</p> --> 
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1
+              class="sm:text-5xl text-2xl font-extrabold title-font mb-4 text-gray-900"
+            >
+              ABOUT US
+            </h1>
+          </div>
+
+          <div class="aboutUs">
+            <div class="single-team">
+            <img src="images/mo.jpeg">
+            <div class="overlay"></div>
+            <div class="info">
+              <h3>Sindhu Chokkarapu</h3>
+              <hr>
+              <p>Information Technology <br> Vasavi College of Engineering</p>
+            </div>
+          </div>
+
+          
+            <div class="single-team">
+            <img src="images/navya.jpeg">
+            <div class="overlay"></div>
+            <div class="info">
+              <h3>NavyaShruthi Kandi</h3>
+              <hr>
+              <p>Information Technology <br> Vasavi College of Engineering</p>
+            </div>
+          
+            
+            
+      </section>
+    </section>
+
+   <!-- links to another pages for buttons -->     
+<script type="text/javascript">
+
+document.getElementById("1").onclick = function () {
+      location.href = "subjects.html";
+  };
+
+  document.getElementById("2").onclick = function () {
+      location.href = "languages.html";
+  };
+
+  document.getElementById("3").onclick = function () {
+      location.href = "programs.html";
+  };
+
+  document.getElementById("4").onclick = function () {
+      location.href = "maq.html";
+  };
+</script> 
+
+
+<script>
+  var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+</script>
+
+  </body>
+</html>
